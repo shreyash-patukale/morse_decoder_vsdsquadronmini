@@ -5,7 +5,7 @@
 ## Overview
 
 ## Components Required (Bill of Materials)
-| Command | Description |
+| Oled Display | VSD Squadron Mini |
 | --- | --- |
 | `git status` | List all *new or modified* files |
 | `git diff` | Show file differences that **haven't been** staged |
