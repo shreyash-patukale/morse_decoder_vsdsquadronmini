@@ -8,9 +8,7 @@
 
 
 # Circuit Connection Diagram
-
-![Circuit_Diagram](https://github.com/shreyash-patukale/team_ayodhya/assets/157274443/250af05c-1f67-4b9e-838e-90c6a4b44503)
-
+![Circuit_Diagram](https://github.com/shreyash-patukale/team_ayodhya/assets/157274443/5615e4f9-749e-4119-aad7-df8a883f5b76)
 # Table for Pin Connection
 | Oled Display | VSD Squadron Mini |
 | --- | --- |
