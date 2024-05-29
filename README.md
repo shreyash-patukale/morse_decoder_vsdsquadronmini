@@ -6,6 +6,10 @@ This project presents the design and implementation of an efficient Morse Code D
 
 ## Overview
 
+The project aims to develop a digital system that decodes Morse code signals input through a single-button interface and displays the corresponding text on an OLED display. This project leverages the capabilities of the CH32V003F4U6 microcontroller, utilizing its GPIO functionalities for signal input detection and its I2C interface for communication with the OLED display. The system differentiates between short and long presses to accurately interpret Morse code sequences in real-time, demonstrating efficient use of minimal hardware resources for effective signal processing and digital communication.
+
+
+
 ## Components Required (Bill of Materials)
 
 
