@@ -2,6 +2,8 @@
 
 ## Introduction
 
+This project presents the design and implementation of an efficient Morse Code Decoder utilizing the VSDSquadron mini microcontroller. The system interprets Morse code signals through a single-button interface, employing precise timing analysis to differentiate between short presses (representing dots) and long presses (representing dashes). The decoded Morse code is then processed in real-time and displayed on an OLED screen using I2C serial communication. This implementation underscores the potential of integrating minimal hardware components with advanced signal processing algorithms to facilitate reliable and effective digital communication.
+
 ## Overview
 
 ## Components Required (Bill of Materials)
