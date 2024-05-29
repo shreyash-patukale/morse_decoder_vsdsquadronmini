@@ -2,12 +2,11 @@
 
 ## Introduction
 
-This project presents the design and implementation of an efficient Morse Code Decoder utilizing the VSDSquadron mini microcontroller. The system interprets Morse code signals through a single-button interface, employing precise timing analysis to differentiate between short presses (representing dots) and long presses (representing dashes). The decoded Morse code is then processed in real-time and displayed on an OLED screen using I2C serial communication. This implementation underscores the potential of integrating minimal hardware components with advanced signal processing algorithms to facilitate reliable and effective digital communication.
+This project demonstrates the design and implementation of a Morse Code Decoder using the VSDSquadron mini microcontroller. Morse code signals are input via a single-button interface, with short and long presses representing dots and dashes. The CH32V003F4U6 microcontroller processes these signals in real-time and displays the decoded text on an OLED screen using I2C communication. This system showcases the efficient use of minimal hardware resources to achieve accurate and reliable digital communication through advanced signal processing techniques.
 
 ## Overview
 
-The project aims to develop a digital system that decodes Morse code signals input through a single-button interface and displays the corresponding text on an OLED display. This project leverages the capabilities of the CH32V003F4U6 microcontroller, utilizing its GPIO functionalities for signal input detection and its I2C interface for communication with the OLED display. The system differentiates between short and long presses to accurately interpret Morse code sequences in real-time, demonstrating efficient use of minimal hardware resources for effective signal processing and digital communication.
-
+The project aims to develop a digital Morse Code Decoder using the VSDSquadron mini microcontroller. It decodes Morse code signals input via a single-button interface and displays the text on an OLED screen. The CH32V003F4U6 microcontroller leverages its GPIO capabilities for signal detection and I2C interface for OLED communication. By differentiating between short and long presses, the system accurately interprets Morse code in real-time. This implementation highlights the efficient use of minimal hardware for effective signal processing and communication.
 
 
 ## Components Required (Bill of Materials)
