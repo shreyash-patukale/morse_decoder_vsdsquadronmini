@@ -10,7 +10,15 @@ The project aims to develop a digital Morse Code Decoder using the VSDSquadron m
 
 
 ## Components Required (Bill of Materials)
+• CH32V003F4U6 Microcontroller (on VSDSquadron Mini RISC-V development board)
 
+• Push Button Switch 2x
+
+• 0.96" (128*64 pixels) I2C OLED Display
+
+• Connecting wires
+
+• Breadboard (optional)
 
 # Circuit Connection Diagram
 ![Circuit_Diagram](https://github.com/shreyash-patukale/team_ayodhya/assets/157274443/5615e4f9-749e-4119-aad7-df8a883f5b76)
