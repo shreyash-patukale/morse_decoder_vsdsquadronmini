@@ -36,3 +36,9 @@ The project aims to develop a Morse Code Decoder using the VSDSquadron mini deve
 | GND | GND |
 | SW2 | PD3 |
 | GND | GND |
+
+
+
+
+
+##CODE
