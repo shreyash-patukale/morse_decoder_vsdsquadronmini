@@ -57,11 +57,6 @@ https://github.com/shreyash-patukale/team_ayodhya/assets/135097306/04a92d0c-3605
 
 
 
-## CODE:
-
-
-
-https://github.com/shreyash-patukale/team_ayodhya/issues/2#issue-2331760221
 
 
 
