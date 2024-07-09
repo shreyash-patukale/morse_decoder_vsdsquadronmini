@@ -5,15 +5,15 @@
 char morseSequence[10];
 int morseIndex = 0;
 
-//GPIO
+//GPIO Configuration
 void GPIO_Config(void)
 {
     GPIO_InitTypeDef GPIO_InitStructure = {0};
 
-    // Enable clock for GPIO port D (Assuming the button is connected to port D)
+    // Enable clock for GPIO port D (For the pins are connected to port D)
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
 
-    // Enable clock for GPIO port C (Assuming the light is connected to port C)
+    // Enable clock for GPIO port C (For the pins are connected to port C)
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
 
     // Button pin configuration
@@ -27,7 +27,7 @@ void GPIO_Config(void)
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz; // Maximum speed
     GPIO_Init(GPIOC, &GPIO_InitStructure); // Corrected to use GPIOC instead of GPIOD
 }
-//STARTUP FUNC
+//Startup function
 void Startup(void)
 {
     SystemCoreClockUpdate();
@@ -56,26 +56,27 @@ void Startup(void)
     OLED_Fill(0);
     OLED_UpdateScreen();
 
-    //"MORSE"
+    //Title
     OLED_GotoXY(8, 4);
     OLED_Puts("MORSE CODE", &Font_11x18, 1);
     OLED_GotoXY(25, 24);
     OLED_Puts("DECODER", &Font_11x18, 1);
     OLED_GotoXY(0, 50);
+    //Subtitle
     OLED_Puts("w/VSDSquadron Mini", &Font_7x10, 1);
     OLED_UpdateScreen();
     Delay_Ms(4000);
-
     OLED_Fill(0);
     OLED_UpdateScreen();
 }
-//SELM FUNC
+
+//Refresh
 void SelectMode(void)
 {
     OLED_Fill(0); // Clear the screen
     OLED_UpdateScreen();
-
 }
+
 char decodeMorse(const char* morse)
 {
     // MAPPING
@@ -108,7 +109,7 @@ char decodeMorse(const char* morse)
     return '?'; //
 }
 
-//"DEC"
+//Decoder function
 void Decoder(void)
 {
     OLED_Fill(0);
@@ -116,7 +117,6 @@ void Decoder(void)
     OLED_GotoXY(5, 5);
     OLED_Puts("ENTER MORSE CODE:", &Font_7x10, 1);
     OLED_UpdateScreen();
-
     int xPos = 5;
     int yPos = 20;
 
@@ -161,13 +161,13 @@ void Decoder(void)
         Delay_Ms(50);
     }
 }
+
+//Main function
 int main(void)
 {
     Startup();
     SelectMode();
-
     GPIO_Config(); // Call GPIO
-
     while (1)
     {
         Decoder();
