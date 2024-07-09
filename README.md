@@ -9,7 +9,7 @@ This project demonstrates a simple Morse Code Decoder, transforming the timeless
 The project aims to develop a Morse Code Decoder using the VSDSquadron mini development board, which features the CH32V003F4U6 microcontroller. It decodes Morse code signals and displays the decoded text on an OLED screen. The system includes a single-button interface for Morse code input, where short and long presses represent dots and dashes, respectively. Additionally, a second button is used to signal the completion of a letter.  The CH32V003F4U6 microcontroller leverages its GPIO capabilities for signal detection and I2C interface for OLED communication. By differentiating between short and long presses, the system accurately interprets Morse code in real-time. This implementation highlights the efficient use of minimal hardware for effective signal processing and communication.
 
 
-## Components Required (Bill of Materials)
+## Components Required
 • CH32V003F4U6 Microcontroller (on VSDSquadron Mini RISC-V development board)
 
 • Push Button Switch 2x
