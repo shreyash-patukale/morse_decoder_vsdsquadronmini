@@ -1,1 +1,2 @@
 ssd1306 library from https://github.com/username/ssd1306-library.git
+ch32v00x library from https://github.com/maxgerhardt/ch32v003-vanilla-gcc
